@@ -33,7 +33,7 @@ export default function Hero() {
 	return (
 		<Section classProp={`${hero.section}`}>
 			<Container spacing={'VerticalXXXL'}>
-				<TypeAnimation className={`${hero.preHeader}`}
+				{/* <TypeAnimation className={`${hero.preHeader}`}
 					sequence={[
 						content.intro.startDelay,
 						() => { setTypingStatus('typing') },
@@ -49,8 +49,11 @@ export default function Hero() {
 					deletionSpeed={content.intro.deletionSpeed}
 					wrapper={content.intro.wrapper}
 					repeat={Infinity}
-				/>
+				/> */}
 				<section>
+				<h4 className={hero.preHeader}>
+						{content.header.role}
+						</h4>
 					<h1 className={hero.header}>
 						{content.header.name}
 						</h1>
@@ -65,11 +68,19 @@ export default function Hero() {
 				</section>
 				<section>
 					<button	className={`button ${button.primary}`}
-							onClick={ () => window.location = 'mailto:hello@andrewnelson.net' } >
+							onClick={ () => window.location = 'mailto:jithinvinod72@gmail.com' } >
 						{content.buttons.primary.title}
 					</button>
+					<button	className={`button ${button.secondary}`}
+						onClick={() => {
+							const link = document.createElement('a');
+							link.href = 'resume/JithinVinod_Software_Coop.pdf'; // Replace with your file path
+							link.download = 'JithinVinod.pdf'; // Replace with your desired file name
+							link.click();
+						  }}>						Resume
+					</button>
 					<button className={`button ${button.secondary} leaveSite`}
-							onClick={ ()=> window.open("https://www.linkedin.com/in/--andrewnelson/", "_blank") } >
+							onClick={ ()=> window.open("https://linkedin.com/in/jithinvinod", "_blank") } >
 						{content.buttons.secondary.title}
 					</button>
 				</section>

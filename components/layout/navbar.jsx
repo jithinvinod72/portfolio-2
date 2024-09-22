@@ -146,7 +146,7 @@ export default function Navbar() {
 				</li>
 				<li data-open={menuState} className={css.menuContent}>
 					<ul>
-						{
+						{/* {
 						content.map( ({ url, title }, index) => {
 							return (
 								<li key={index}>
@@ -154,7 +154,7 @@ export default function Navbar() {
 								</li>
 							)
 						})	
-						}
+						} */}
 						<li>
 							<ThemeMode />
 						</li>

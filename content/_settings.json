@@ -1,15 +1,15 @@
 {
-	"name": "Andrew Nelson",
+	"name": "Jithin Vinod",
 	"logo": "",
-	
+
 	"username": {
-		"github": "atlamors",
-		"medium": "@--andrewnelson"
+		"github": "jithinvinod72",
+		"medium": "@jithinvinod"
 	},
 
 	"portfolio": { 
-		"forkthis": "Steal this theme! Its open-source 🥰",
-		"repo_html": "https://www.github.com/atlamors/portfolio",
-		"repo_api": "https://api.github.com/repos/atlamors/portfolio"
+		"message": "Feel free to explore this theme! It's open-source 😄",
+		"repo_html": "https://www.github.com/jithinvinod72/portfolio",
+		"repo_api": "https://api.github.com/repos/jithinvinod72/portfolio"
 	}
 }

@@ -1,53 +1,88 @@
 [
 	{
-		"project": "My Supply Co.",
-		"url": "https://mysupplyco.com",
+		"project": "WriteCV.io",
+		"url": "https://writecv.io",
 		"repo": "Private",
-		"descriptionTitle": "D2C & B2B ecommerce site and blog",
-		"description": "with elegant solutions for a complex codebase and customer journey.",
-		"imageOptions": [
-		],
+		"descriptionTitle": "AI-powered resume platform",
+		"description": "A platform processing over 5,000 resumes monthly, with features like real-time resume analysis and editing.",
+		"imageOptions": [],
 		"images": [
-			{ "key": "mock-stack",	"hover": "right", 	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/03.png" },
-			{ "key": "mock-stack",	"hover": "right",	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/02.png" },
-			{ "key": "mock-stack",	"hover": "left",	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/01.png" }
+			{ "key": "resume-template", "hover": "right", "h": "1200", "w": "556", "url": "/img/writecv/Screenshot 2024-09-21 at 11.39.03 PM.png" },
+			{ "key": "resume-template", "hover": "right", "h": "1200", "w": "556", "url": "/img/writecv/Screenshot 2024-09-21 at 11.38.47 PM.png" }
+			
+
 		],
 		"stack": [
-			{ "key": "php", 		"name": "PHP", 			"type": "devicon" },
-			{ "key": "mysql", 		"name": "mySQL", 		"type": "devicon" },
-			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
-			{ "key": "jquery", 		"name": "jQuery", 		"type": "devicon" },
-			{ "key": "woocommerce", "name": "WooCommerce", 	"type": "devicon" },
-			{ "key": "wordpress",	"name": "Wordpress", 	"type": "devicon" },
-			{ "key": "html5",		"name": "HTML5", 		"type": "devicon" },
-			{ "key": "css3",		"name": "CSS3", 		"type": "devicon" },
-			{ "key": "sass",		"name": "SCSS", 		"type": "devicon" },
-			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" },
-			{ "key": "google",		"name": "GA4/GTM/EEC", 	"type": "devicon" }
+			{ "key": "typescript", 	"name": "TypeScript", 	"type": "devicon" },
+			{ "key": "nodejs", 		"name": "Node.js", 		"type": "devicon" },
+			{ "key": "expressjs", 	"name": "Express.js", 	"type": "devicon" },
+			{ "key": "supabase", 	"name": "Supabase", 	"type": "devicon" },
+			{ "key": "postgresql", 	"name": "PostgreSQL", 	"type": "devicon" },
+			{ "key": "react", 		"name": "React", 		"type": "devicon" },
+			{ "key": "tailwind",	"name": "Tailwind CSS", "type": "devicon" },
+			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" }
 		]
 	},
 	{
-		"project": "andrewnelson.net",
-		"url": "https://github.com/atlamors/portfolio",
-		"repo": "Public",
-		"descriptionTitle": "An open source portfolio",
-		"description": "built on Next.js and React. A fast and agile MERN stack single page application.",
-		"imageOptions": [
-			{ "key": "size", 		"value": "large" }
-		],
+		"project": "FitFeed",
+		"url": "https://youtu.be/li3KmSlb3P0?si=co1puS_L83ciFJqM",
+		"repo": "Private",
+		"descriptionTitle": "AI-powered meal plan recommender",
+		"description": "An intelligent meal planner for athletes, built during a 48-hour hackathon.",
+		"imageOptions": [],
 		"images": [
-			{ "key": "portfolio", "hover": "left", "h": "797", "w": "556",  "url": "/img/portfolio-mock_single.png" }
+			{ "key": "resume-template", "hover": "right", "h": "1200", "w": "556", "url": "/img/msc-mock_stack/Landing Page.png" },
+			{ "key": "resume-template", "hover": "left", "h": "1200", "w": "556", "url": "/img/msc-mock_stack/Landing Page.png" },
+			{ "key": "resume-template", "hover": "right", "h": "1200", "w": "556", "url": "/img/msc-mock_stack/Home - 2.jpg" }
+
 		],
 		"stack": [
-			{ "key": "nextjs", 		"name": "Next.js", 		"type": "devicon" },
 			{ "key": "react", 		"name": "React", 		"type": "devicon" },
 			{ "key": "nodejs", 		"name": "Node.js", 		"type": "devicon" },
-			{ "key": "mongodb", 	"name": "MongoDB", 		"type": "devicon" },
+			{ "key": "expressjs", 	"name": "Express.js", 	"type": "devicon" },
+			{ "key": "postgresql", 	"name": "PostgreSQL", 	"type": "devicon" },
 			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
-			{ "key": "html5",		"name": "HTML5", 		"type": "devicon" },
-			{ "key": "css3",		"name": "CSS3", 		"type": "devicon" },
-			{ "key": "sass",		"name": "SCSS", 		"type": "devicon" },
 			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" }
 		]
-	}
+	},
+	{
+		"project": "HelloMind",
+		"url": "https://youtu.be/pcu1voHv_44?si=VyCx938bJoFaAGUJ",
+		"repo": "Private",
+		"descriptionTitle": "Meditation app",
+		"description": "An app for meditation and mindfulness, selected for Microsoft for Startups.",
+		"imageOptions": [],
+		"images": [
+			{ "key": "resume-template", "hover": "right", "h": "1200", "w": "556", "url": "/img/HelloMind/Group 98.png" },
+			{ "key": "resume-template", "hover": "left", "h": "1200", "w": "556", "url": "/img/HelloMind/Group 106.png" },
+			{ "key": "resume-template", "hover": "right", "h": "1200", "w": "556", "url": "/img/HelloMind/Home Screen.jpg" }
+
+		],
+		"stack": [
+			{ "key": "expressjs", 	"name": "Express.js", 	"type": "devicon" },
+			{ "key": "firebase", 	"name": "Firebase", 	"type": "devicon" },
+			{ "key": "azure", 		"name": "Azure", 		"type": "devicon" },
+			{ "key": "reactnative", 	"name": "React Native", "type": "devicon" },
+			{ "key": "typescript", 	"name": "TypeScript", 	"type": "devicon" }
+		]
+	},
+	{
+		"project": "Ailly Visualize",
+		"url": "https://www.ailly.dental/en/home",
+		"repo": "Private",
+		"descriptionTitle": "AI-powered dental image visualization solution",
+		"description": "Ailly Visualize is an AI-powered platform by dentists, for dentists. It helps organize, compile, and visualize dental images while providing a structured way to share and communicate them.",
+		"imageOptions": [],
+		"images": [
+			{ "key": "ailly-visualize", "hover": "right", "h": "1200", "w": "556", "url": "/img/Ailly/Mobile - Login.png" },
+			{ "key": "ailly-visualize", "hover": "right", "h": "1200", "w": "556", "url": "/img/Ailly/Mobile - Home scroll 1.png" }
+		],
+		"stack": [
+			{ "key": "azure", 	"name": "Azure", 	"type": "devicon" },
+			{ "key": "angular", "name": "Angular", 		"type": "devicon" },
+			{ "key": "nodejs", 		"name": "Node.js", 		"type": "devicon" },
+			{ "key": "mongodb", 	"name": "MongoDB", 		"type": "devicon" },
+			{ "key": "typescript", 	"name": "TypeScript", 	"type": "devicon" }
+		]
+	}	
 ]

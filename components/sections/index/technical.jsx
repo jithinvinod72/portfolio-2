@@ -28,32 +28,32 @@ export default function Technical() {
 		<Section classProp={`${about.section} borderBottom`}>	
 			<Container spacing={['verticalXXXLrg']}>
 				<SectionTitle
-					title="Technical"
-					preTitle="Hardskills"
-					subTitle="As a creative technologist, I craft intuitive digital experiences using a diverse set of tools and languages."
+					title="Technical Skills"
+					preTitle="Core Competencies"
+					subTitle="As a full stack developer, I create impactful solutions using cutting-edge technologies across the stack."
 				/>
 				<section className={`${about.content} ${about.container}`}>
 					<div className={about.copy}>
 						<CopyBlock 
-							title="Polymath foundations"
-							icon={[ 'fat', 'chart-network' ]}
-							copy="With a strong foundation in both design and development, I bring a unique perspective to every project and am constantly learning and evolving to stay up-to-date with the latest industry trends."
+							title="Strong Foundations"
+							icon={[ 'fat', 'cogs' ]}
+							copy="With a solid background in both frontend and backend development, I bring a full-stack perspective to every project. I’m continuously refining my skills to stay at the forefront of the tech industry."
 							iconClass={about.icon}
 							containerClass={about.container}
 						/>
 						<BadgesBlock 
-							title="Software I love to work with" 
-							copy="With over 20 years of experience creating digital assets, I have a deep and intuitive understanding of how the interfaces of the best software products in the world are designed. This is just some of the software I have used over that time."
+							title="Software I Excel In" 
+							copy="Throughout my career, I’ve used various software tools to deliver high-quality, efficient solutions. Below are some of the tools I rely on to craft intuitive digital experiences."
 							list={software}
 							block="software" 
 							fullContainer="fullContainer"
-							icon="grid-2-plus"
+							icon="tools"
 							containerClass={about.container}
 							headerIcon={about.icon} 
 						/>
 						<BadgesBlock 
-							title="Technologies I love to build with" 
-							copy="I deeply enjoy solving problems through code. From the front end all the way to the back end and the APIs in-between. No project is too challenging for me."
+							title="Technologies I Build With" 
+							copy="From designing front-end user interfaces to architecting backend infrastructures and APIs, I take pride in solving complex problems with these technologies."
 							list={tech} 
 							block="tech"
 							fullContainer="fullContainer" 
@@ -63,7 +63,7 @@ export default function Technical() {
 						/>							
 					</div>
 					<div className={`${about.image} ${about.technicalSvg}`}>
-						<Image src="/img/dataism-24.svg" width={477} height={1111} alt="Data Strings 01 by Colorpong: https://ywft.us/2177b695b" />
+						<Image src="/img/dataism-24.svg" width={477} height={1111} alt="Data Strings 01 by Colorpong" />
 					</div>
 				</section>	
 			</Container>
@@ -73,31 +73,27 @@ export default function Technical() {
 }
 
 const software = [
-	{ key: 'photoshop', 	name: 'Photoshop', 			type: 'devicon' },
-	{ key: 'illustrator', 	name: 'Illustrator', 		type: 'devicon' },
-	{ key: 'figma', 		name: 'Figma', 				type: 'devicon' },
 	{ key: 'vscode', 		name: 'VSCode', 			type: 'devicon' },
-	{ key: 'mailbox', 		name: 'Postman', 			type: 'fas' },
-	{ key: 'computer-mouse',name: 'Click Up', 			type: 'fas' },
-	{ key: 'list-music',	name: 'Ableton', 			type: 'fas' },
-	{ key: 'aftereffects',	name: 'After Effects', 		type: 'devicon' },
-	{ key: 'premierepro',	name: 'Premiere Pro', 		type: 'devicon' },
+	{ key: 'postman', 		name: 'Postman', 			type: 'devicon' },
+	{ key: 'docker', 		name: 'Docker', 			type: 'devicon' },
+	{ key: 'git', 			name: 'Git', 				type: 'devicon' },
+	{ key: 'figma', 		name: 'Figma', 				type: 'devicon' },
+	{ key: 'jira', 			name: 'Jira', 				type: 'devicon' },
+	{ key: 'slack', 		name: 'Slack', 				type: 'devicon' }
 ]
 
 const tech	= [
 	{ key: 'javascript', 	name: 'JavaScript', 		type: 'devicon' },
-	{ key: 'nodejs', 		name: 'NodeJS', 			type: 'devicon' },
+	{ key: 'typescript', 	name: 'TypeScript', 		type: 'devicon' },
 	{ key: 'react', 		name: 'React', 				type: 'devicon' },
-	{ key: 'nextjs', 		name: 'NextJS', 			type: 'devicon' },
-	{ key: 'jquery', 		name: 'jQuery', 			type: 'devicon' },
-	{ key: 'php', 			name: 'PHP', 				type: 'devicon' },
-	{ key: 'wordpress', 	name: 'WordPress', 			type: 'devicon' },
-	{ key: 'woocommerce', 	name: 'WooCommerce', 		type: 'devicon' },
-	{ key: "google",		name: "GA4/GTM", 			type: "devicon" },
-	{ key: 'html5', 		name: 'HTML5', 				type: 'devicon' },
-	{ key: 'css3', 			name: 'CSS3', 				type: 'devicon' },
-	{ key: 'sass', 			name: 'SASS', 				type: 'devicon' },
-	{ key: 'git', 			name: 'Git', 				type: 'devicon' },
-	{ key: 'mysql', 		name: 'MySQL', 				type: 'devicon' },
+	{ key: 'nextjs', 		name: 'Next.js', 			type: 'devicon' },
+	{ key: 'nodejs', 		name: 'Node.js', 			type: 'devicon' },
+	{ key: 'expressjs', 	name: 'Express.js', 		type: 'devicon' },
+	{ key: 'firebase', 		name: 'Firebase', 			type: 'devicon' },
 	{ key: 'mongodb', 		name: 'MongoDB', 			type: 'devicon' },
+	{ key: 'postgresql', 	name: 'PostgreSQL', 		type: 'devicon' },
+	{ key: 'azure', 		name: 'Azure', 				type: 'devicon' },
+	{ key: 'aws', 			name: 'AWS', 				type: 'devicon' },
+	{ key: 'css3', 			name: 'CSS3', 				type: 'devicon' },
+	{ key: 'sass', 			name: 'SASS', 				type: 'devicon' }
 ]

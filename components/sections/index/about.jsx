@@ -29,31 +29,30 @@ export default function About() {
 			<Container spacing={['verticalXXXLrg']}>
 				<SectionTitle
 					title="About Me"
-					preTitle="Synopsis"
-					subTitle="With a diverse skill set that includes UX design, UI design, full stack development, operational architecture, systems design, photography, and branding, I am a well-rounded digital professional."
+					preTitle="Who I Am"
+					subTitle="With expertise spanning full stack development, cloud computing, AI/ML, and system architecture, I am a versatile software engineer passionate about creating solutions that make an impact."
 				/>
 				<section className={about.content}>
 					<div className={about.image}>
-						<img src="/img/family-photo.jpg" alt="Nelson family photo"/>
-						{/* <Image src="/img/family-photo.jpg" width={600} height={800}/> */}
+						<img src="/img/JithinVinod_Headshot.png" alt="Jithin Vinod photo"/>
+						{/* <Image src="/img/profile-photo.jpg" width={600} height={800}/> */}
 					</div>
 					<div className={about.copy} >
 						<CopyBlock 
-							title="Softskills that pay the bills"
+							title="Skills That Drive Innovation"
 							containerClass={about.container}
 							iconClass={about.icon}
-							icon={[ 'fat', 'ear-listen' ]}
-							copy="In addition to my design and technical expertise—I also have strong leadership, time management, and multitasking skills—honed through my experience as a business owner / managing partner, husband, and father of two. Outside of work, I enjoy staying active through sports such as hockey and snowboarding. I am confident in my ability to bring passion and value to any project."
+							icon={[ 'fat', 'code' ]}
+							copy="In addition to my technical expertise, I bring strong leadership, problem-solving, and collaborative skills honed through my experience leading teams in fast-paced environments. Outside of work, I enjoy exploring new technologies, contributing to open-source, and staying active with hiking and cycling."
 						/>
 						<BadgesBlock 
-							title="Reasearch and planning" 
+							title="Research and Development" 
 							containerClass={about.container}
 							list={methods} 
 							fullContainer="fullContainer"
 							block="methods" 
-							icon="fingerprint"
-							copy="One of my favorite aspects of creating is planning the architecture of a project. From Design Systems to Brand Strategy—I enjoy working with the many touch points of user experience."
-							//invertedColor="invertedColor"
+							icon="lightbulb"
+							copy="I love the process of researching and building the foundation of a project. Whether it's designing system architectures or crafting scalable solutions, I'm passionate about every touchpoint of software development."
 							headerIcon={`${about.icon}`}
 						/>
 					</div>
@@ -64,10 +63,10 @@ export default function About() {
 }
 
 const methods 	= [
-	{ key: 'planet-moon', 		name: 'User Research', 		type: 'fad' },
-	{ key: 'qrcode', 			name: 'Digital Strategy', 	type: 'fad' },
-	{ key: 'window', 			name: 'Design Systems', 	type: 'fad' },
-	{ key: 'cubes', 			name: 'Product Strategy', 	type: 'far' },
-	{ key: 'layer-plus', 		name: 'Brand Strategy', 	type: 'fad' },
-	{ key: 'solar-system', 		name: 'Operations', 		type: 'fad' },
+	{ key: 'brain', 			name: 'AI/ML Development', 	type: 'fad' },
+	{ key: 'cloud', 			name: 'Cloud Architecture', type: 'fad' },
+	{ key: 'cogs', 				name: 'System Design', 		type: 'fad' },
+	{ key: 'code', 				name: 'Full Stack Development', type: 'far' },
+	{ key: 'network-wired', 	name: 'API Design', 		type: 'fad' },
+	{ key: 'database', 			name: 'Database Management', type: 'fad' }
 ]

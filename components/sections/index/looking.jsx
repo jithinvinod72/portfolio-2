@@ -21,16 +21,14 @@ import section 		from '../../../styles/blocks/section.title.module.scss'
  */
 export default function Looking() {
 	return (
-		<Section classProp={`${looking.section} borderBottom`}>	
+		<Section id="Looking" classProp={`${looking.section} borderBottom`}>	
 			<Container classProp={`${section.title} ${looking.container}`} spacing={['verticalXXXLrg']}>
 				<h4>I&apos;m currently looking for employment.</h4>
-				<h2 className={looking.json}>Senior : &#123;</h2>
-				<h2 className={looking.jsonSub}><span className={looking.highlight}>Front End Engineer</span>,</h2>
-				<h2 className={looking.jsonSub}><span className={looking.highlight2}>User Experience Designer</span></h2>
+				<h2 className={looking.json}>Co op Intern Winter 2025 : &#123;</h2>
+				<h2 className={looking.jsonSub}><span className={looking.highlight}>Software Engineer</span>,</h2>
+				<h2 className={looking.jsonSub}><span className={looking.highlight2}>Web Developer</span></h2>
 				<h2 className={looking.json}>&#125;</h2>
-				<h4>I am particularily interested in product facing postions where I can help make an organization wide impact.</h4>
-				{/* <h2>Senior <span className={looking.highlight}>User Experience</span> Designer</h2> */}
-				{/* <p className="subtitle">with a focus on Product Design.</p> */}
+				<h4>I’m excited about software engineering intern roles where I can apply my skills, learn from experienced teams, and contribute to impactful projects that make a difference across the organization.</h4>
 			</Container>
 		</Section>
 	)
