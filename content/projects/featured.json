@@ -84,5 +84,24 @@
 			{ "key": "mongodb", 	"name": "MongoDB", 		"type": "devicon" },
 			{ "key": "typescript", 	"name": "TypeScript", 	"type": "devicon" }
 		]
-	}	
+	},
+	{
+		"project": "Surgical Planning System",
+		"url": "",
+		"repo": "Private",
+		"descriptionTitle": "Hospital Surgical Planning Solution",
+		"description": "A cloud-based surgical planning system designed for healthcare professionals, streamlining surgical scheduling and enhancing operational efficiency.",
+		"imageOptions": [],
+		"images": [
+			{ "key": "surgical-planning", "hover": "right", "h": "1200", "w": "556", "url": "/img/surgical-planning/surgical-screen.png" },
+			{ "key": "surgical-planning", "hover": "left", "h": "1200", "w": "556", "url": "/img/surgical-planning/surgical-overview.png" }
+		],
+		"stack": [
+			{ "key": "dotnet", 		"name": ".NET", 		"type": "devicon" },
+			{ "key": "react", 		"name": "React", 		"type": "devicon" },
+			{ "key": "sqlserver", 	"name": "SQL Server", 	"type": "devicon" },
+			{ "key": "rabbitmq", 	"name": "RabbitMQ", 	"type": "devicon" },
+			{ "key": "typescript", 	"name": "TypeScript", 	"type": "devicon" }
+		]
+	}
 ]

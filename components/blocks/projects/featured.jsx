@@ -9,6 +9,7 @@ import Icon 		from '../../utils/icon.util'
 
 import css 			from '../../../styles/sections/projects/featured.module.scss'
 import content 		from '../../../content/projects/featured.json'
+import Link from 'next/link'
 
 export default function FeaturedProject({ content }, index) {
 
@@ -48,25 +49,12 @@ export default function FeaturedProject({ content }, index) {
 						<Badges list={stack} block="stack" fullContainer={false} color={false} />
 					</div>
 					<m.div variants={''} className={css.viewProject}>
+						<Link href={url} target="_blank">
 						<Icon icon={[ 'fad', 'arrow-right-to-bracket' ]} />
+						</Link>
 					</m.div>
 				</div>
 			</div>
-{/* 
-			<div className={css.imageContainer}>
-				<span className={`${css.imageAnimationContainer}`}>
-	 				{ images.map( ({key, url, hover, h, w }, index) => {
-						hover = ( hover === 'left' ) ? hoverLeft : hoverRight
-						return (
-							<m.div key={`${index}-${key}`} variants={item}>
-								<m.div variants={hover}>
-									<Image src={url} alt="x" height={h} width={w} />
-								</m.div>
-							</m.div>
-						)}
-					) }
-				</span>
-			</div> */}
 		</m.section>
 	)
 }
