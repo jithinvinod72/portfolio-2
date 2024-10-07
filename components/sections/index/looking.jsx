@@ -24,7 +24,7 @@ export default function Looking() {
 		<Section id="Looking" classProp={`${looking.section} borderBottom`}>	
 			<Container classProp={`${section.title} ${looking.container}`} spacing={['verticalXXXLrg']}>
 				<h4>I&apos;m currently looking for employment.</h4>
-				<h2 className={looking.json}>Co op Intern Winter 2025 : &#123;</h2>
+				<h2 className={looking.json}>Winter 2025 - Co op : &#123;</h2>
 				<h2 className={looking.jsonSub}><span className={looking.highlight}>Software Engineer</span>,</h2>
 				<h2 className={looking.jsonSub}><span className={looking.highlight2}>Web Developer</span></h2>
 				<h2 className={looking.json}>&#125;</h2>
